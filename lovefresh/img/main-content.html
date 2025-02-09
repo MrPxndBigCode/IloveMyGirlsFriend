@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+  <title>รักเฟรชที่สุดในโลกกก</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffe6f2;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 1rem;
+      flex-direction: column;
+      font-family: "Sriracha", serif;
+    }
+
+    iframe {
+      border: none;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 360px;
+      height: 80px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+
+    .gallery-container {
+      max-width: 1200px;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      text-align: center;
+      color: #ff69b4;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery-container">
+    <h1>รักเฟรชที่สุดดดด 💖 </h1>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="img/55190_0.jpg" alt="Image 1"></div>
+      <div class="gallery-item"><img src="img/55191_0.jpg" alt="Image 2"></div>
+      <div class="gallery-item"><img src="img/55192_0.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55193_0.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55194_0.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55195_0.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55196_0.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55197_0.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55198_0.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55199.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55200.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55201.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55202.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55203.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55204.jpg" alt="Image 3"></div>
+      <div class="gallery-item"><img src="img/55206.jpg" alt="Image 3"></div>
+     
+    </div>
+    <div class="gallery-item"><p>
+        รักอ้วนมากๆนะ ขอให้อ้วนอยู่กับพี่ในทุกๆปีเลย อยู่ด้วยกันตลอดไปเหมือนที่อ้วนเคยบอกนะ ที่ทำเว็บนี้เพื่อเก็บความทรงจำภาพพวกนี้ไว้ วันนี้เป็นวันวาเลนไทน์เดี๋ยวให้ของขวัญเสร็จให้ดูเว็บนี้ต่อเลย55555555 ขอโทษอ้วนด้วย ถ้าบางทีทำอะไรไม่ดีหรือทะเลาะกันพี่ก็จะปรับให้อ้วนนะ อยากอยู่กับอ้วนไปจนแก่เลยอิอิ เว็บนี้ไม่มีไรมากหรอก เผื่อคิดถึงอ้วนจะได้ค้นเน็ตมาเจอเว็บนี้55555555 รักอิอ้วนมากๆนะ สุขสันวันวาเลนไทน์ค้าบ 💐
+    </p></div>
+  </div>
+</body>
+</html>
